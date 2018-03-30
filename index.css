@@ -1,0 +1,16 @@
+.content
+{
+	display:flex;
+	border: solid 2px blue;
+	
+	width: 75vw;
+	
+
+}
+.collapse
+{   width: 75vw;
+	justify-content: center;
+	display: flex;
+	border: solid 2px blue;
+}
+

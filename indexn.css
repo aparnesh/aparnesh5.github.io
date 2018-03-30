@@ -1,0 +1,102 @@
+ul
+{
+
+	background-color: blue;
+	display: inline-flex;
+	width: 100%;
+	justify-content: center;
+
+	padding-left: 0VW;
+
+}
+
+ li {
+ display: inline-flex;
+ 
+  margin-left: 0VW;
+  justify-content: center;
+  font: 1em "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin-top:0vw;
+  padding: 0vw 0vw 0vw 0vw;
+  list-style: none;
+
+
+ width: 25%;
+ background:transparent;
+ transition: background 0.5s linear 0s, color 0.5s linear 0s;
+  padding: 8px 0px;
+
+
+  }
+
+
+ li:hover {
+  background: black;
+  text-decoration: line-through;
+   text-decoration-color:white;
+   color: white;
+
+
+
+ 
+}
+
+div {
+  display: flex;
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+
+}
+
+
+@media screen and (min-width: 800px)
+{
+ 
+#randomid
+{
+  display:none;
+}
+
+}
+@media screen and (max-width: 800px)
+{
+
+ ul
+{
+
+  background-color: blue;
+  display: block;
+  width: 100%;
+  justify-content: center;
+
+  padding-left: 0VW;
+
+}
+li {
+ display: inline-flex;
+ 
+  margin-left: 0VW;
+  justify-content: center;
+  font: 30px "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin-top:0vw;
+  padding: 0vw 0vw 0vw 0vw;
+  list-style: none;
+
+
+ width: 100%;
+ background:transparent;
+ transition: background 0.5s linear 0s, color 0.5s linear 0s;
+  padding: 8px 0px;
+
+
+  }
+ .fold
+ {
+  display: none;
+ }
+}
+
+
+}
